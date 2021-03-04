@@ -39,7 +39,7 @@ class _LogInPage extends State<LogInPage> {
             ),
             decoration: const InputDecoration(
               border: OutlineInputBorder(
-                BorderSide(color: Colors.red),
+                borderSide: BorderSide(color: Colors.red),
               ),
               filled: true,
               hintText: 'madinasalik@yandex.ru', 
