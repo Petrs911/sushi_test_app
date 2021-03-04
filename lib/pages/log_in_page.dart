@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'log_in_page.dart';
+import 'text_widget.dart';
 
 
 class LogInPage extends StatefulWidget {
