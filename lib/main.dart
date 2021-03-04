@@ -28,9 +28,14 @@ class MyApp extends StatelessWidget {
               bottomRight: Radius.circular(30.0),
             ),
           ),
-          flexibleSpace: appLogo,
-          //centerTitle: true,
-          //title: appLogo,
+          flexibleSpace: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: appLogo,
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
         ),
       ),
       body: Text("Random Text"),
