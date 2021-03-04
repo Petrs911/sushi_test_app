@@ -17,7 +17,7 @@ class _LogInPage extends State<LogInPage> {
       mainAxisAlignment:MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget> [
-        SizedBox(width: 24.0),
+        SizedBox(height: 24.0),
 
         Padding(
           padding: const EdgeInsets.only(left: 20.0, right: 20.0),
