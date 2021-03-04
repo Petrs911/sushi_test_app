@@ -40,7 +40,7 @@ class _LogInPage extends State<LogInPage> {
               fontSize: 17.0,
             ),
             decoration: const InputDecoration(
-              border: OutlineInputBorder(
+              border: UnderlineInputBorder(
                 borderSide: BorderSide(color: Colors.red),
               ),
               filled: true,
