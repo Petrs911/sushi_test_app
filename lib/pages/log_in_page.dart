@@ -22,7 +22,7 @@ class _LogInPage extends State<LogInPage> {
           decoration: const InputDecoration(
             border: UnderlineInputBorder(),
             filled: true,
-            icon: Icon(Icons.email),
+            //icon: Icon(Icons.email),
             hintText: 'Your email address',
             labelText: 'E-mail',
           ),
