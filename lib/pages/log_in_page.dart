@@ -38,7 +38,9 @@ class _LogInPage extends State<LogInPage> {
               fontSize: 17.0,
             ),
             decoration: const InputDecoration(
-              border: UnderlineInputBorder(),
+              border: OutlineInputBorder(
+                BorderSide(color: Colors.red),
+              ),
               filled: true,
               hintText: 'madinasalik@yandex.ru', 
               hintStyle: TextStyle(
