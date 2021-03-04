@@ -4,7 +4,6 @@ class TextWidget extends StatelessWidget {
   String text = "Рандом";
   
   TextWidget(this.text);
-  }
 
   @override
   Widget build(BuildContext context) {
