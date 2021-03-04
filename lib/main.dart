@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'sushi_test_app/lib/themes/style.dart';
 
 void main() => runApp(HomePage());
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           centerTitle: true,
-          title: Image.asset('assets/title.png', fit: BoxFit.cover),
+          title: appLogo,
         ),
       ),
       body: Text("Random Text"),
