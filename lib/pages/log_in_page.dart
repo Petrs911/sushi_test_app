@@ -47,7 +47,7 @@ class _LogInPage extends State<LogInPage> {
               hintText: 'madinasalik@yandex.ru', 
               hintStyle: TextStyle(
                 decoration: TextDecoration.underline,
-                //fontStyle: FontStyle.
+                decorationStyle: DecorationStyle.double,
                 color: Colors.black,
                 fontWeight: FontWeight.w600,
                 fontSize: 17.0,
