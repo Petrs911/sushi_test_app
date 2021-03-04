@@ -19,6 +19,15 @@ class _LogInPage extends State<LogInPage> {
       children: <Widget> [
         Padding(
           padding: const EdgeInsets.all(20.0),
+          child: Text('Адрес электронной почты',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 14.0,
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(20.0),
           child: TextFormField(
             decoration: const InputDecoration(
               border: UnderlineInputBorder(),
