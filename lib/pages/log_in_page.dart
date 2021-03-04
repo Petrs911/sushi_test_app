@@ -17,18 +17,21 @@ class _LogInPage extends State<LogInPage> {
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
+
         SizedBox(height: 50.0),
+
         Padding(
           padding: const EdgeInsets.only(left: 30.0, right: 20.0),
           child: Text(
             'Адрес электронной почты',
             style: TextStyle(
               color: Colors.black.withOpacity(0.4),
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeight.w600,
               fontSize: 17.0,
             ),
           ),
         ),
+
         Padding(
           padding: const EdgeInsets.only(left: 20.0, right: 20.0),
           child: TextFormField(
