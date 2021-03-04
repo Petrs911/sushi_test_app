@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class TextWidget extends StatelessWidget {
-  final String text = "Рандом";
+  final String;
   
-  TextWidget({this.text = text});
+  TextWidget({this.text = 'Рандом'});
 
   @override
   Widget build(BuildContext context) {
