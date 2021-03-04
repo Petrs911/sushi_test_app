@@ -10,7 +10,7 @@ class TextWidget extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 30.0, right: 20.0),
       child: Text(
-        text,
+        this.text,
         style: TextStyle(
           color: Colors.black.withOpacity(0.4),
           fontWeight: FontWeight.w900,
