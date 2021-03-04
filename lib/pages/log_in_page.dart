@@ -14,7 +14,7 @@ class _LogInPage extends State<LogInPage> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      //mainAxisAlignment:MainAxisAlignment.spaceEvenly,
+      mainAxisAlignment:MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget> [
         Padding(
