@@ -48,7 +48,7 @@ class _LogInPage extends State<LogInPage> {
                 borderSide: BorderSide(color: Colors.grey),
               ),
               filled: true,
-              labelName: 'name',
+              labelText: 'name',
               hintText: 'madinasalik@yandex.ru',
               hintStyle: TextStyle(
                 decoration: TextDecoration.underline,
