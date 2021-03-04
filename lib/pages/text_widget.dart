@@ -17,6 +17,6 @@ class TextWidget extends StatelessWidget {
           fontSize: 17.0,
         ),
       ),
-    ),
+    );
   }
 }
