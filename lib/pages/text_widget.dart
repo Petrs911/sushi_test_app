@@ -5,6 +5,7 @@ class TextWidget extends StatelessWidget {
 
   final String text;
   final FontWeight font;
+  
   @override
   Widget build(BuildContext context) {
     return Padding(
