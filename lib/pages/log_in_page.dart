@@ -41,7 +41,7 @@ class _LogInPage extends State<LogInPage> {
             ),
             decoration: const InputDecoration(
               border: UnderlineInputBorder(
-                borderSide: BorderSide(color: Colors.red),
+                bottom: BorderSide(color: Colors.red),
               ),
               filled: true,
               hintText: 'madinasalik@yandex.ru', 
