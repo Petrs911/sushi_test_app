@@ -21,7 +21,7 @@ class _LogInPage extends State<LogInPage> {
 
         SizedBox(height: 50.0),
 
-        TextWidget(text: 'Адрес электронной почты'),
+        TextWidget(),
 
         Padding(
           padding: const EdgeInsets.only(left: 20.0, right: 20.0),
