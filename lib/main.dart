@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
             bottomRight: Radius.circular(18.0),
           ),
         ),
-        
-        title: "Sushi App",
+
+        title: Text("Sushi App"),
       ),
       body: Text("Random Text"),
     );
