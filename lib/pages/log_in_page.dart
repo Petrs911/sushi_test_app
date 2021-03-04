@@ -26,7 +26,7 @@ class _LogInPage extends State<LogInPage> {
             'Адрес электронной почты',
             style: TextStyle(
               color: Colors.black.withOpacity(0.4),
-              fontWeight: FontWeight.w600,
+              fontWeight: FontWeight.w100,
               fontSize: 17.0,
             ),
           ),
