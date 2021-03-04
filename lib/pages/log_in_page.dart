@@ -32,6 +32,11 @@ class _LogInPage extends State<LogInPage> {
         Padding(
           padding: const EdgeInsets.only(left: 20.0, right: 20.0),
           child: TextFormField(
+            style: TextStyle(
+              color: Colors.black,
+              fontWeight: FontWeight.w600,
+              fontSize: 17.0,
+            ),
             decoration: const InputDecoration(
               border: UnderlineInputBorder(),
               filled: true,
