@@ -17,16 +17,18 @@ class _LogInPage extends State<LogInPage> {
       mainAxisAlignment:MainAxisAlignment.spaceEvenly,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget> [
-        //const SizedBox(height: 24.0),
-        TextFormField(
-          decoration: const InputDecoration(
-            border: UnderlineInputBorder(),
-            filled: true,
-            //icon: Icon(Icons.email),
-            hintText: 'Your email address',
-            labelText: 'E-mail',
+        Pading(
+          padding: const EdgeInsets.all(8.0),
+          child: TextFormField(
+            decoration: const InputDecoration(
+              border: UnderlineInputBorder(),
+              filled: true,
+              //icon: Icon(Icons.email),
+              hintText: 'Your email address',
+              labelText: 'E-mail',
+            ),
+            keyboardType: TextInputType.emailAddress,
           ),
-          keyboardType: TextInputType.emailAddress,
         ),
       ],
     );
