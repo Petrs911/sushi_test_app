@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           //centerTitle: true,
-          //title: appLogo,
+          title: appLogo,
         ),
       ),
       body: Text("Random Text"),
