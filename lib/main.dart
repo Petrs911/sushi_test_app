@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(50.0),
+        preferredSize: Size.fromHeight(200.0),
         child: AppBar(
           shape: ContinuousRectangleBorder(
             borderRadius: BorderRadius.only(
