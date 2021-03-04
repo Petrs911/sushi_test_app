@@ -11,8 +11,6 @@ class LogInPage extends StatefulWidget {
 }
 
 class _LogInPage extends State<LogInPage> {
-  String _email;
-  String _password;
 
   @override
   Widget build(BuildContext context) {
@@ -23,18 +21,7 @@ class _LogInPage extends State<LogInPage> {
 
         SizedBox(height: 50.0),
 
-        TextWidget(text: 'Адрес электронной почты'),
-        /*Padding(
-          padding: const EdgeInsets.only(left: 30.0, right: 20.0),
-          child: Text(
-            'Адрес электронной почты',
-            style: TextStyle(
-              color: Colors.black.withOpacity(0.4),
-              fontWeight: FontWeight.w900,
-              fontSize: 17.0,
-            ),
-          ),
-        ),*/
+        TextWidget(),
 
         Padding(
           padding: const EdgeInsets.only(left: 20.0, right: 20.0),
