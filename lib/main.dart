@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
           ),
         ),
         title: Center(child: Text("Sushi App")),
-        body: Text("Random Text"),
       ),
+      body: Text("Random Text"),
     );
   }
 }
