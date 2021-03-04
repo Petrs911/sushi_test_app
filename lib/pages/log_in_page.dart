@@ -15,14 +15,14 @@ class _LogInPage extends State<LogInPage> {
   Widget build(BuildContext context) {
     return Column(
       //mainAxisAlignment:MainAxisAlignment.spaceEvenly,
-      //crossAxisAlignment: CrossAxisAlignment.stretch,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget> [
         Padding(
           padding: const EdgeInsets.all(20.0),
           child: Text('Адрес электронной почты',
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: 14.0,
+              fontSize: 17.0,
             ),
           ),
         ),
