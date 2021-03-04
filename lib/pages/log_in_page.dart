@@ -18,7 +18,7 @@ class _LogInPage extends State<LogInPage> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget> [
         Padding(
-          padding: const EdgeInsets.all(20.0),
+          //padding: const EdgeInsets.all(20.0),
           child: Text('Адрес электронной почты',
             style: TextStyle(
               fontWeight: FontWeight.bold,
