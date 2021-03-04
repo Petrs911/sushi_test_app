@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'sushi_test_app/lib/themes/style.dart';
+import 'package:sushi_test_app/lib/themes/style.dart';
 
 void main() => runApp(HomePage());
 
