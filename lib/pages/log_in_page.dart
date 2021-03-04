@@ -20,7 +20,7 @@ class _LogInPage extends State<LogInPage> {
         SizedBox(height: 50.0),
 
         Padding(
-          padding: const EdgeInsets.only(left: 22.0, right: 20.0),
+          padding: const EdgeInsets.only(left: 25.0, right: 20.0),
           child: Text('Адрес электронной почты',
             style: TextStyle(
               color: Colors.black.withOpacity(0.4),
