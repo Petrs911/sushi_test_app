@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 
-class TextWidget extends StatelessWidget {
-  final String text;
-  
-  TextWidget({this.text = 'Рандом'});
+class TextWidget extends StatelessWidget { 
+  const TextWidget({Key key ,this.text = 'Рандом'}) : super(key: key);
 
+  final String text;
   @override
   Widget build(BuildContext context) {
     return Padding(
