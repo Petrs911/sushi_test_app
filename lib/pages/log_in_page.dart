@@ -41,12 +41,12 @@ class _LogInPage extends State<LogInPage> {
             ),
             decoration: const InputDecoration(
               enabledBorder: UnderlineInputBorder(
-                borderSide: BorderSide(color: Colors.red),
+                borderSide: BorderSide(color: Colors.black.withOpacity(0.4)),
               ),
               focusedBorder:UnderlineInputBorder(
-                borderSide: BorderSide(color: Colors.red),
+                borderSide: BorderSide(color: Colors.black.withOpacity(0.4)),
               ),
-              
+
               filled: true,
               hintText: 'madinasalik@yandex.ru', 
               hintStyle: TextStyle(
