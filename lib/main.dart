@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           centerTitle: true,
-          title: Text("Sushi App"),
+          title: Image.asset('assets/title.png', fit: BoxFit.cover),
         ),
       ),
       body: Text("Random Text"),
