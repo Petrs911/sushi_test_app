@@ -35,7 +35,12 @@ class _LogInPage extends State<LogInPage> {
             decoration: const InputDecoration(
               border: UnderlineInputBorder(),
               filled: true,
-              hintText: 'madinasalik@yandex.ru',
+              hintText: Text('madinasalik@yandex.ru', 
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 17.0,
+                ),
+              ),
               //labelText: 'E-mail',
             ),
             keyboardType: TextInputType.emailAddress,
