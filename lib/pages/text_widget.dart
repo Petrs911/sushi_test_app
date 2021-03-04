@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TextWidget extends StatelessWidget {
-  TextWidget ({Key key, this.text = text}) : super(key: key);
+  TextWidget ({Key key, text = text}) : super(key: key);
 
   String text = "Рандом";
 
