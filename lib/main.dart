@@ -30,10 +30,7 @@ class MyApp extends StatelessWidget {
           ),
           flexibleSpace: Container(
             decoration: BoxDecoration(
-              image: DecorationImage(
-                image: appLogo,
-                fit: BoxFit.cover,
-              ),
+              image: appLogo,
             ),
           ),
         ),
