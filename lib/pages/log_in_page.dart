@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'log_in_page.dart';
+
+
 class LogInPage extends StatefulWidget {
   const LogInPage({Key key}) : super(key: key);
 
@@ -20,7 +23,8 @@ class _LogInPage extends State<LogInPage> {
 
         SizedBox(height: 50.0),
 
-        Padding(
+        TextWidget('Адрес электронной почты'),
+        /*Padding(
           padding: const EdgeInsets.only(left: 30.0, right: 20.0),
           child: Text(
             'Адрес электронной почты',
@@ -30,7 +34,7 @@ class _LogInPage extends State<LogInPage> {
               fontSize: 17.0,
             ),
           ),
-        ),
+        ),*/
 
         Padding(
           padding: const EdgeInsets.only(left: 20.0, right: 20.0),
