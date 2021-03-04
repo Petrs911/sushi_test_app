@@ -21,7 +21,7 @@ class _LogInPage extends State<LogInPage> {
           padding: const EdgeInsets.only(left: 20.0, right: 20.0),
           child: Text('Адрес электронной почты',
             style: TextStyle(
-              color: Colors.black.withOpacity(0.6),
+              color: Colors.black.withOpacity(0.4),
               fontWeight: FontWeight.bold,
               fontSize: 17.0,
             ),
