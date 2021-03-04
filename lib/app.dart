@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
         child: AppBar(
           shape: ContinuousRectangleBorder(
             borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(30.0),
-              bottomRight: Radius.circular(30.0),
+              bottomLeft: Radius.circular(60.0),
+              bottomRight: Radius.circular(60.0),
             ),
           ),
           flexibleSpace: Container(
