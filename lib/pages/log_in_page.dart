@@ -41,10 +41,10 @@ class _LogInPage extends State<LogInPage> {
             ),
             decoration: const InputDecoration(
               enabledBorder: UnderlineInputBorder(
-                borderSide: BorderSide(color: Colors.black.withOpacity(0.4)),
+                borderSide: BorderSide(color: Colors.grey),
               ),
               focusedBorder:UnderlineInputBorder(
-                borderSide: BorderSide(color: Colors.black.withOpacity(0.4)),
+                borderSide: BorderSide(color: Colors.grey),
               ),
 
               filled: true,
