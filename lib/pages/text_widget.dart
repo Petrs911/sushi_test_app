@@ -13,7 +13,7 @@ class TextWidget extends StatelessWidget {
         text,
         style: TextStyle(
           color: Colors.black.withOpacity(0.4),
-          fontWeight: FontWeight.w900,
+          fontWeight: font,
           fontSize: 17.0,
         ),
       ),
