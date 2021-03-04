@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),/*PreferredSize(
+      appBar: AppBar(/*PreferredSize(
         preferredSize: Size.fromHeight(300.0),
         child: AppBar(
           shape: ContinuousRectangleBorder(
