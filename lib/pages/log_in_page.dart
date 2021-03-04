@@ -17,6 +17,7 @@ class _LogInPage extends State<LogInPage> {
       mainAxisAlignment:MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget> [
+
         SizedBox(height: 50.0),
 
         Padding(
@@ -29,6 +30,7 @@ class _LogInPage extends State<LogInPage> {
             ),
           ),
         ),
+
         Padding(
           padding: const EdgeInsets.only(left: 20.0, right: 20.0),
           child: TextFormField(
@@ -44,9 +46,11 @@ class _LogInPage extends State<LogInPage> {
               filled: true,
               hintText: 'madinasalik@yandex.ru', 
               hintStyle: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 17.0,
+                decoration: TextDecoration.underline,
+                fontStyle: FontStyle.
+                color: Colors.black,
+                fontWeight: FontWeight.w600,
+                fontSize: 17.0,
                 ),
               //labelText: 'E-mail',
             ),
