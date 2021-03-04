@@ -18,10 +18,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        debugShowCheckedModeBanner: false,
         shape: ContinuousRectangleBorder(
           borderRadius: BorderRadius.only(
-            bottomLeft: Radius.circular(18.0),
-            bottomRight: Radius.circular(18.0),
+            bottomLeft: Radius.circular(30.0),
+            bottomRight: Radius.circular(30.0),
           ),
         ),
         centerTitle: true,
