@@ -53,7 +53,7 @@ class _LogInPage extends State<LogInPage> {
                 fontWeight: FontWeight.w600,
                 fontSize: 17.0,
               ),
-              labelText: 'E-mail',
+              //labelText: 'E-mail',
             ),
             keyboardType: TextInputType.emailAddress,
           ),
