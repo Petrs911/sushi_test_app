@@ -17,7 +17,7 @@ class _LogInPage extends State<LogInPage> {
       mainAxisAlignment:MainAxisAlignment.spaceEvenly,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget> [
-        Pading(
+        Padding(
           padding: const EdgeInsets.all(8.0),
           child: TextFormField(
             decoration: const InputDecoration(
