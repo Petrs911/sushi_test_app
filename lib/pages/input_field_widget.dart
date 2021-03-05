@@ -23,14 +23,14 @@ class _InputFieldWidgetState extends State<InputFieldWidget> {
           fontSize: 17.0,
         ),
         obscureText: widget.obscureText,
-        decoration: const InputDecoration(
+        decoration: InputDecoration(
           enabledBorder: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.grey),
           ),
           focusedBorder: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.grey),
           ),
-          labelText: widget.text,
+          hintText: widget.text,
           //'madinasalik@yandex.ru',
           hintStyle: TextStyle(
             decoration: TextDecoration.underline,
