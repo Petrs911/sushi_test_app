@@ -7,12 +7,15 @@ class TextButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextButton(
-      child: Text(text),
-      style: TextButton.styleFrom(
-        primary: Colors.red,
-      ),
-      onPressed: () {},
+    return Padding(
+      padding: const EdgeInsets.only(left: 30.0, right: 20.0), 
+      child: TextButton(
+        child: Text(text),
+        style: TextButton.styleFrom(
+          primary: Colors.red,
+        ),
+        onPressed: () {},
+      )
     );
   }
 }
