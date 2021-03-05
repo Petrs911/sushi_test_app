@@ -1,7 +1,7 @@
 import 'package:flutter/matrial.dart';
 
 class InputFieldWidget extends StatefulWidget {
-  const InputFieldWidget({Key key}) super(key: key)
+  const InputFieldWidget({Key key}) super(key: key);
   
   @override
   <StatefulWidget> createState() => _InputFieldWidget();
