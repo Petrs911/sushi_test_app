@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
             fontSize: 17.0, 
             fontWeight: FontWeight.w700))),
 
-      Tab(child: Text('Зарегистрироваться', 
+      Tab(indicatorHorizontalMargin
+        child: Text('Зарегистрироваться', 
             style: TextStyle(color: Colors.black,
             fontSize: 17.0, 
             fontWeight: FontWeight.w700))),
