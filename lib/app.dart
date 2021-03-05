@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
             style: TextStyle(color: Colors.black,
             fontSize: 17.0, 
             fontWeight: FontWeight.w700))),
+
       Tab(child: Text('Зарегистрироваться', 
             style: TextStyle(color: Colors.black,
             fontSize: 17.0, 
@@ -39,8 +40,7 @@ class MyApp extends StatelessWidget {
             bottom: TabBar(
               tabs: _Tabs,
               indicator: UnderlineTabIndicator(
-                //indicatorColor: Colors.red,
-                borderSide: BorderSide(width: 4.0, color: Colors.red),
+                borderSide: BorderSide(width: 4.0, color: Color(0xFFD11317)),
                 insets: EdgeInsets.symmetric(horizontal:16.0)
               ),
               
