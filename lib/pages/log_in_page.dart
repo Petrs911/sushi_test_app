@@ -30,6 +30,7 @@ class _LogInPage extends State<LogInPage> {
             fontSize: 17.0,
           ),
         ),
+        SizedBox(height: 50.0),
         TextWidget(text: 'Пароль'),
         InputFieldWidget(
           obscureText: true, 
