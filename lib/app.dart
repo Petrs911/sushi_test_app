@@ -9,26 +9,41 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: Size.fromHeight(300.0),
-        child: AppBar(
-          shape: ContinuousRectangleBorder(
-            borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(60.0),
-              bottomRight: Radius.circular(60.0),
+    final _Pages = <Widget>[
+      RegistrationPage(), 
+      LogInPage()
+    ];
+    final _Tabs = <Tab>[
+      Tab(text: 'Войти'),
+      Tab(text: 'Зарегистрироваться')
+    ];
+
+    return DefaultTabController(
+      child: Scaffold(
+        appBar: PreferredSize(
+          preferredSize: Size.fromHeight(300.0),
+          child: AppBar(
+            shape: ContinuousRectangleBorder(
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(60.0),
+                bottomRight: Radius.circular(60.0),
+              ),
             ),
-          ),
-          flexibleSpace: Container(
-            decoration: BoxDecoration(
-              image: appLogo,
+            flexibleSpace: Container(
+              decoration: BoxDecoration(
+                image: appLogo,
+              ),
             ),
           ),
         ),
+        backgroundColor: Color(0xFFF2F2F2),
+        bottom: TabBar(
+          tabs: _Tabs,
+        ),
+        body: TabBarView(
+          children: _Pages,
+        ),
       ),
-      backgroundColor: Color(0xFFF2F2F2),
-      body: RegistrationPage(),
-      //body: LogInPage(),
     );
   }
 }
