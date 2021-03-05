@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
             bottom: TabBar(
               tabs: _Tabs,
               indicator: UnderlineTabIndicator(
-                indicatorColor: Colors.red,
+                //indicatorColor: Colors.red,
                 borderSide: BorderSide(width: 5.0),
                 insets: EdgeInsets.symmetric(horizontal:16.0)
               ),
