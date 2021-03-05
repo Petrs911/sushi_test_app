@@ -21,14 +21,14 @@ class _LogInPage extends State<LogInPage> {
         TextWidget(text: 'Password', font: FontWeight.w900),
         InputFieldWidget(
           obscureText: false, 
-          hintText: 'madinasalik@yandex.ru'
+          hintText: 'madinasalik@yandex.ru',
           hintStyle: TextStyle(
             decoration: TextDecoration.underline,
             decorationStyle: TextDecorationStyle.double,
             color: Colors.black,
             fontWeight: FontWeight.w600,
             fontSize: 17.0,
-          )
+          ),
         ),
         InputFieldWidget(
           obscureText: true, 
