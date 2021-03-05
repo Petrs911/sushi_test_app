@@ -12,8 +12,8 @@ class RoundedButtonWidget extends StatelessWidget {
           style: TextStyle(fontSize: 14.0)),
         onPressed: () {},
         style: ElevatedButton.styleFrom(
-          minimumSize: Size(140.0, 50.0),
-          primary: Color(0xFFDB00FF),
+          minimumSize: Size(314.0, 70.0),
+          primary: Color(0xFFD11317),
           onPrimary: Colors.white,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30.0),
