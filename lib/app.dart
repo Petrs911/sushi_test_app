@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'themes/style.dart';
 import 'pages/log_in_page.dart';
+import 'pages/registration_page.dart'
 
 class MyApp extends StatelessWidget {
   const MyApp ({Key key}) : super(key: key);
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
         ),
       ),
       backgroundColor: Color(0xFFF2F2F2),
-      body: LogInPage(),
+      body: RegistrationPage(),
+      //body: LogInPage(),
     );
   }
 }
