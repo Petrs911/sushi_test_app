@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           fontSize: 18.0, 
           fontWeight: FontWeight.w700)))),
       Container(
-          width: 80.0,
+          width: 90.0,
           child: Tab(child: Text('Зарегистрироваться', 
             style: TextStyle(color: Colors.black,
             fontSize: 18.0, 
