@@ -24,55 +24,63 @@ class _RegistrationPage extends State<RegistrationPage> {
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.start,
-          TextWidget(text: 'Ваше имя'),
-          InputFieldWidget(
-            obscureText: false,
-            hintText: 'Имя',
-            hintStyle: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.w600,
-              fontSize: 17.0,
+          children: <Widget> [
+            TextWidget(text: 'Ваше имя'),
+            InputFieldWidget(
+              obscureText: false,
+              hintText: 'Имя',
+              hintStyle: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w600,
+                fontSize: 17.0,
+              ),
             ),
-          ),
+          ]
         ),
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.start,
-          TextWidget(text: 'Адрес электронной почты'),
-          InputFieldWidget(
-            obscureText: false,
-            hintText: 'Почта',
-            hintStyle: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.w600,
-              fontSize: 17.0,
+          children: <Widget> [
+            TextWidget(text: 'Адрес электронной почты'),
+            InputFieldWidget(
+              obscureText: false,
+              hintText: 'Почта',
+              hintStyle: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w600,
+                fontSize: 17.0,
+              ),
             ),
-          ),
+          ]
         ),
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.start,
-          TextWidget(text: 'Пароль'),
-          InputFieldWidget(
-            obscureText: false,
-            hintText: '* * * * * * * * ',
-            hintStyle: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.w600,
-              fontSize: 20.0,
+          children: <Widget> [
+            TextWidget(text: 'Пароль'),
+            InputFieldWidget(
+              obscureText: false,
+              hintText: '* * * * * * * * ',
+              hintStyle: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w600,
+                fontSize: 20.0,
+              ),
             ),
-          ),
+          ]
         ),
         Row(
-          TextWidget(text: 'Уже зарегистрированы?'),
-          TextButtonWidget(
-            text: 'Забыли пароль?',
+          children: <Widget> [
+            TextWidget(text: 'Уже зарегистрированы?'),
+            TextButtonWidget(
+              text: 'Забыли пароль?',
               textStyle: TextStyle(
                 decoration: TextDecoration.underline,
                 fontWeight: FontWeight.w700,
                 fontSize: 17.0,
               ),
-          ),
+            ),
+          ]
         ),
         RoundedButtonWidget(text: 'Зарегистрироваться'),
       ],
