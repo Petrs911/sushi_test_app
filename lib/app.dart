@@ -17,44 +17,6 @@ class MyApp extends StatelessWidget {
     return DefaultTabController(
       length: _Tabs.length,
       child: Scaffold(
-       appBar: AppBar(
-       backgroundColor: const Color(0xFF3baee7),
-       title: Text("Jobs"),
-        ),
-      body: Column(      // Column
-         children: <Widget>[
-          Container(
-            color: Colors.deepOrangeAccent,        // Tab Bar color change
-             child: TabBar(           // TabBar
-             unselectedLabelColor: Colors.lightBlue[100],
-             labelColor: const Color(0xFF3baee7),
-             indicatorWeight: 2,
-             indicatorColor: Colors.blue[100],
-             tabs: <Widget>[               
-               Tab(
-                 text: "All Jobs",
-               ),
-               Tab(
-                 text: "Most Recent",
-               ),
-               Tab(
-                 text: "Saved Jobs",
-               )
-             ],
-           ),
-         ),
-         Expanded(
-             flex: 3,
-             child: TabBarView(         // Tab Bar View
-             physics: BouncingScrollPhysics(),
-             controller: tabController,
-             children: <Widget>[AllJobScreen(), AllJobScreen(), AllJobScreen()],
-               ),
-            ),
-         ],
-    ),
-      
-      /*Scaffold(
         appBar: PreferredSize(
           preferredSize: Size.fromHeight(300.0),
           child: AppBar(
@@ -84,7 +46,7 @@ class MyApp extends StatelessWidget {
           children: _Pages,
         ),
         backgroundColor: Color(0xFFF2F2F2),
-      ),*/
-    ));
+      ),
+    );
   }
 }
