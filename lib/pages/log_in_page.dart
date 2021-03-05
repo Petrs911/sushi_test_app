@@ -56,16 +56,17 @@ class _LogInPage extends State<LogInPage> {
                 fontSize: 20.0,
               ),
             ),
+            TextButtonWidget(
+            text: 'Забыли пароль?',
+              textStyle: TextStyle(
+                fontWeight: FontWeight.w700,
+                fontSize: 17.0,
+              ),
+            ),
           ],
         ),
         //SizedBox(height: 30.0),
-        TextButtonWidget(
-          text: 'Забыли пароль?',
-          textStyle: TextStyle(
-            fontWeight: FontWeight.w700,
-            fontSize: 17.0,
-          ),
-        ),
+        
         //SizedBox(height: 60.0),
         RoundedButtonWidget(text: 'Войти'),
       ],
