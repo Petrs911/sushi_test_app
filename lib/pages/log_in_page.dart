@@ -22,6 +22,8 @@ class _LogInPage extends State<LogInPage> {
       children: <Widget>[
         //SizedBox(height: 50.0),
         Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget> [
             TextWidget(text: 'Адрес электронной почты', fontWeight: FontWeight.w900, fontSize: 17.0),
             InputFieldWidget(
@@ -37,9 +39,10 @@ class _LogInPage extends State<LogInPage> {
             ),
           
           //SizedBox(height: 50.0),
-            TextWidget(text: 'Пароль'),
+            
           ]
         ),
+        TextWidget(text: 'Пароль'),
         InputFieldWidget(
           obscureText: true,
           hintText: '********',
