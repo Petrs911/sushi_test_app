@@ -7,10 +7,11 @@ class InputFieldWidget extends StatefulWidget {
   final String text;
   
   @override
-  State<StatefulWidget> createState() => _InputFieldWidget();
+  _InputFieldWidgetState createState() => _InputFieldWidget();
 }
 
 class _InputFieldWidget extends State<InputFieldWidget> {
+  
   @override
   Widget build(BuildContext context) {
     return Padding(
