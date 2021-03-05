@@ -33,8 +33,8 @@ class MyApp extends StatelessWidget {
           child: AppBar(
             shape: ContinuousRectangleBorder(
               borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(60.0),
-                bottomRight: Radius.circular(60.0),
+                bottomLeft: Radius.circular(80.0),
+                bottomRight: Radius.circular(80.0),
               ),
             ),
             bottom: TabBar(
