@@ -36,7 +36,7 @@ class _LogInPage extends State<LogInPage> {
           hintStyle: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.w600,
-            fontSize: 17.0,
+            fontSize: 20.0,
           ),
         ),
       ],
