@@ -7,10 +7,10 @@ class InputFieldWidget extends StatefulWidget {
   final String text;
   
   @override
-  _InputFieldWidgetState createState() => _InputFieldWidget();
+  _InputFieldWidgetState createState() => _InputFieldWidgetState();
 }
 
-class _InputFieldWidget extends State<InputFieldWidget> {
+class _InputFieldWidgetState extends State<InputFieldWidget> {
   
   @override
   Widget build(BuildContext context) {
