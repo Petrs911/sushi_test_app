@@ -26,7 +26,7 @@ class _InputFieldWidget extends State<InputFieldWidget> {
           focusedBorder: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.grey),
           ),
-          hintText: "kek.com"//'madinasalik@yandex.ru',
+          hintText: "kek.com",//'madinasalik@yandex.ru',
           hintStyle: TextStyle(
             decoration: TextDecoration.underline,
             decorationStyle: TextDecorationStyle.double,
