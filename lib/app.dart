@@ -25,7 +25,8 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      backgroundColor: Color(0xFFF2F2F2),
+      backgroundColor: color.red,
+      //backgroundColor: Color(0xFFF2F2F2),
       body: LogInPage(),
     );
   }
