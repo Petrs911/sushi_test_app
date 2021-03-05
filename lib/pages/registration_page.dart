@@ -70,10 +70,11 @@ class _RegistrationPage extends State<RegistrationPage> {
           ]
         ),
         Row(
+          mainAxisSize: MainAxisSize.min
           children: <Widget> [
             TextWidget(text: 'Уже зарегистрированы?'),
             TextButtonWidget(
-              text: 'Забыли пароль?',
+              text: 'Вход',
               textStyle: TextStyle(
                 decoration: TextDecoration.underline,
                 fontWeight: FontWeight.w700,
