@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class InputFieldWidget extends StatefulWidget {
-  const InputFieldWidget({Key key, this.obscureText, this.text}) : super(key: key);
+  const InputFieldWidget({Key key, this.obscureText, this.text,}) : super(key: key);
   
   final bool obscureText;
   final String text;
