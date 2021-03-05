@@ -21,7 +21,7 @@ class _LogInPage extends State<LogInPage> {
         SizedBox(height: 50.0),
         TextWidget(text: 'Адрес электронной почты', fontWeight: FontWeight.w900, fontSize: 17.0),
         InputFieldWidget(
-          obscureText: false, 
+          obscureText: false,
           hintText: 'madinasalik@yandex.ru',
           hintStyle: TextStyle(
             decoration: TextDecoration.underline,
@@ -34,7 +34,7 @@ class _LogInPage extends State<LogInPage> {
         SizedBox(height: 50.0),
         TextWidget(text: 'Пароль'),
         InputFieldWidget(
-          obscureText: true, 
+          obscureText: true,
           hintText: '********',
           hintStyle: TextStyle(
             color: Colors.black,
@@ -50,6 +50,8 @@ class _LogInPage extends State<LogInPage> {
             fontSize: 17.0,
           ),
         ),
+        SizedBox(height: 60.0),
+        RoundedButtonWidget(text: 'Войти'),
       ],
     );
   }
