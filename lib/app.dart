@@ -13,12 +13,14 @@ class MyApp extends StatelessWidget {
       LogInPage(),
       RegistrationPage(), 
     ];
-    final _Tabs = <Container>[
-      Container(
-        child: Tab(child: Text('Войти', 
-          style: TextStyle(color: Colors.black,
-          fontSize: 18.0, 
-          fontWeight: FontWeight.w700)))),
+    final _Tabs = <Widget>[
+      Expanded(
+        flex: 2,
+        child: Container(
+          child: Tab(child: Text('Войти', 
+            style: TextStyle(color: Colors.black,
+            fontSize: 18.0, 
+            fontWeight: FontWeight.w700))))),
       Container(
           width: 250.0,
           child: Tab(child: Text('Зарегистрироваться', 
