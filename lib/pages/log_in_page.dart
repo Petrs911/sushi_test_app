@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'text_widget.dart';
+import 'input_field_widget';
 
 
 class LogInPage extends StatefulWidget {
@@ -11,19 +12,16 @@ class LogInPage extends StatefulWidget {
 }
 
 class _LogInPage extends State<LogInPage> {
-
   @override
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-
         SizedBox(height: 50.0),
-
         TextWidget(text: 'Password', font: FontWeight.w900),
-
-        Padding(
+        InputFieldWidget(),
+        /*Padding(
           padding: const EdgeInsets.only(left: 30.0, right: 30.0),
           child: TextFormField(
             style: TextStyle(
@@ -38,8 +36,6 @@ class _LogInPage extends State<LogInPage> {
               focusedBorder: UnderlineInputBorder(
                 borderSide: BorderSide(color: Colors.grey),
               ),
-              //fillColor: Color(0xFFF2F2F2),
-              //filled: true,
               hintText: 'madinasalik@yandex.ru',
               hintStyle: TextStyle(
                 decoration: TextDecoration.underline,
@@ -48,11 +44,10 @@ class _LogInPage extends State<LogInPage> {
                 fontWeight: FontWeight.w600,
                 fontSize: 17.0,
               ),
-              //labelText: 'E-mail',
             ),
             keyboardType: TextInputType.emailAddress,
           ),
-        ),
+        ),*/
       ],
     );
   }
