@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 class TextWidget extends StatelessWidget { 
-  const TextWidget({Key key, this.text, this.font = FontWeight.w600}) : super(key: key);
+  const TextWidget({Key key, this.text, this.fontWeight = FontWeight.w600, this.fontSize = 15.0}) : super(key: key);
 
   final String text;
-  final FontWeight font;
+  final FontWeight fontWeight;
+  final double fontSize;
   
   @override
   Widget build(BuildContext context) {
@@ -14,8 +15,8 @@ class TextWidget extends StatelessWidget {
         text,
         style: TextStyle(
           color: Colors.black.withOpacity(0.4),
-          fontWeight: font,
-          fontSize: 17.0,
+          fontWeight: fontWeight,
+          fontSize: fontSize,
         ),
       ),
     );
