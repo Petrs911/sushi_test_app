@@ -9,7 +9,7 @@ class RoundedButtonWidget extends StatelessWidget {
     return Center(
       child: ElevatedButton(
         child: Text(text,
-          style: TextStyle(fontSize: 17.0, fontWeight: FontWeight.w600)),
+          style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600)),
         onPressed: () {},
         style: ElevatedButton.styleFrom(
           minimumSize: Size(314.0, 70.0),
