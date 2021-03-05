@@ -18,7 +18,7 @@ class _LogInPage extends State<LogInPage> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         SizedBox(height: 50.0),
-        TextWidget(font: FontWeight.w900),
+        TextWidget(text: 'Password', font: FontWeight.w900),
         InputFieldWidget(),
       ],
     );
