@@ -21,7 +21,7 @@ class _LogInPage extends State<LogInPage> {
         SizedBox(height: 50.0),
         TextWidget(text: 'Password', font: FontWeight.w900),
         //InputFieldWidget(),
-        TestWidget(),
+        //TestWidget(),
       ],
     );
   }
