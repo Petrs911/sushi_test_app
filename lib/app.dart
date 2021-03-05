@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       LogInPage(),
       RegistrationPage(), 
     ];
-    final _Tabs = <Tab>[
+    final _Tabs = <Container>[
         Container(
           width: 55.0,
           child: Tab(child: Text('Войти', 
