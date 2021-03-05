@@ -79,7 +79,7 @@ class _RegistrationPage extends State<RegistrationPage> {
               textStyle: TextStyle(
                 decoration: TextDecoration.underline,
                 fontWeight: FontWeight.w700,
-                fontSize: 17.0,
+                fontSize: 18.0,
               ),
             ),
           ]
