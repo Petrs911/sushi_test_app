@@ -12,7 +12,7 @@ class TextButtonWidget extends StatelessWidget {
       style: TextButton.styleFrom(
         primary: Colors.red,
       ),
-      onPressed: () {};
+      onPressed: () {},
     );
   }
 }
