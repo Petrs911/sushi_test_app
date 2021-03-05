@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class InputFieldWidget extends StatefulWidget {
-  const InputFieldWidget({Key key}) : super(key: key);
+  const InputFieldWidget({Key key, this.hintText, this.obscureText}) : super(key: key);
+  
+  final bool obscureText;
+  final String hintText;
   
   @override
   State<StatefulWidget> createState() => _InputFieldWidget();
@@ -18,6 +21,7 @@ class _InputFieldWidget extends State<InputFieldWidget> {
           fontWeight: FontWeight.w600,
           fontSize: 17.0,
         ),
+        obscureText: widget.obscureText,
         decoration: const InputDecoration(
           enabledBorder: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.grey),
@@ -25,7 +29,7 @@ class _InputFieldWidget extends State<InputFieldWidget> {
           focusedBorder: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.grey),
           ),
-          hintText: 'madinasalik@yandex.ru',
+          hintText: widget.hintText,//'madinasalik@yandex.ru',
           hintStyle: TextStyle(
             decoration: TextDecoration.underline,
             decorationStyle: TextDecorationStyle.double,
