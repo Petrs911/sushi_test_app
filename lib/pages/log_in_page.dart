@@ -42,7 +42,13 @@ class _LogInPage extends State<LogInPage> {
             fontSize: 20.0,
           ),
         ),
-        TextButtonWidget(text: 'Забыли пароль?'),
+        TextButtonWidget(
+          text: 'Забыли пароль?',
+          textStyle: TextStyle(
+            fontWeight: FontWeight.w600,
+            fontSize: 17.0,
+          ),
+        ),
       ],
     );
   }
