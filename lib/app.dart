@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final _Pages = <Widget>[
+      LogInPage(),
       RegistrationPage(), 
-      LogInPage()
     ];
     final _Tabs = <Tab>[
       Tab(text: 'Войти'),
-      Tab(text: 'Зарегистрироваться')
+      Tab(text: 'Зарегистрироваться'),
     ];
 
     return DefaultTabController(
