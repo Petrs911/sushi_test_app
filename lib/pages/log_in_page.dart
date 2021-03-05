@@ -45,6 +45,7 @@ class _LogInPage extends State<LogInPage> {
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             TextWidget(text: 'Пароль'),
             InputFieldWidget(
