@@ -24,7 +24,7 @@ class _LogInPage extends State<LogInPage> {
         TextWidget(text: 'Password', font: FontWeight.w900),
 
         Padding(
-          padding: const EdgeInsets.only(left: 20.0, right: 20.0),
+          padding: const EdgeInsets.only(left: 30.0, right: 30.0),
           child: TextFormField(
             style: TextStyle(
               color: Colors.black,
