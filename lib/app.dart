@@ -41,11 +41,11 @@ class MyApp extends StatelessWidget {
             bottom: TabBar(
               tabs: _Tabs,
               indicator: UnderlineTabIndicator(
-                //borderSide: BorderSide(width: 5.0),
+                indicatorColor: Colors.red,
+                borderSide: BorderSide(width: 5.0),
                 insets: EdgeInsets.symmetric(horizontal:16.0)
               ),
-              indicatorColor: Colors.red,
-              indicatorWeight: 3.0,
+              
             ),
             flexibleSpace: Container(
               decoration: BoxDecoration(
