@@ -8,7 +8,7 @@ class RoundedButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: ElevatedButton(
-        child: Text("TEST BUTTON",
+        child: Text(text,
           style: TextStyle(fontSize: 14.0)),
         onPressed: () {},
         style: ElevatedButton.styleFrom(
