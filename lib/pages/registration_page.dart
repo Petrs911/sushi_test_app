@@ -59,7 +59,7 @@ class _RegistrationPage extends State<RegistrationPage> {
           children: <Widget> [
             TextWidget(text: 'Пароль'),
             InputFieldWidget(
-              obscureText: false,
+              obscureText: true,
               hintText: '* * * * * * * * ',
               hintStyle: TextStyle(
                 color: Colors.black,
