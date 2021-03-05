@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'text_widget.dart';
 import 'input_field_widget.dart';
-import 'test.dart';
 
 class LogInPage extends StatefulWidget {
   const LogInPage({Key key}) : super(key: key);
@@ -20,8 +19,7 @@ class _LogInPage extends State<LogInPage> {
       children: <Widget>[
         SizedBox(height: 50.0),
         TextWidget(text: 'Password', font: FontWeight.w900),
-        //InputFieldWidget(),
-        //TestWidget(),
+        InputFieldWidget(),
       ],
     );
   }
