@@ -71,6 +71,7 @@ class _RegistrationPage extends State<RegistrationPage> {
         ),
         Row(
           mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget> [
             TextWidget(text: 'Уже зарегистрированы?'),
             TextButtonWidget(
