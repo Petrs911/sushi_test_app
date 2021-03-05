@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       RegistrationPage(), 
     ];
     final _Tabs = <Tab>[
-        child: Container(
+        Container(
           width: 55.0,
           child: Tab(child: Text('Войти', 
             style: TextStyle(color: Colors.black,
