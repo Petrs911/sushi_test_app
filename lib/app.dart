@@ -39,6 +39,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             bottom: TabBar(
+              filled: false,
               tabs: _Tabs,
               indicatorColor: Colors.red,
               indicatorWeight: 3.0,
