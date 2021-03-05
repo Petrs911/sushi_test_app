@@ -45,7 +45,6 @@ class _LogInPage extends State<LogInPage> {
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             TextWidget(text: 'Пароль'),
             InputFieldWidget(
@@ -57,6 +56,7 @@ class _LogInPage extends State<LogInPage> {
                 fontSize: 20.0,
               ),
             ),
+            SizedBox(height: 20.0),
             TextButtonWidget(
             text: 'Забыли пароль?',
               textStyle: TextStyle(
