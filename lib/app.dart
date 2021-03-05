@@ -29,6 +29,9 @@ class MyApp extends StatelessWidget {
                 bottomRight: Radius.circular(60.0),
               ),
             ),
+            bottom: TabBar(
+              tabs: _Tabs,
+            ),
             flexibleSpace: Container(
               decoration: BoxDecoration(
                 image: appLogo,
@@ -36,13 +39,10 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        backgroundColor: Color(0xFFF2F2F2),
-        bottom: TabBar(
-          tabs: _Tabs,
-        ),
         body: TabBarView(
           children: _Pages,
         ),
+        backgroundColor: Color(0xFFF2F2F2),
       ),
     );
   }
