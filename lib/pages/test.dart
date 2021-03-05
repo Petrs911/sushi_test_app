@@ -1,16 +1,11 @@
-import 'package:flutter/material.dart';
+import 'input_field_widget.dart';
+import 'package:flutter.dart';
 
-class InputFieldWidget extends StatefulWidget {
-  const InputFieldWidget({Key key}) : super(key: key);
+class TestWidget extends InputFieldWidget {
   
   @override
-  State<StatefulWidget> createState() => _InputFieldWidget();
-}
-
-class _InputFieldWidget extends State<InputFieldWidget> {
-  @override
   Widget build(BuildContext context) {
-    return Padding(
+     return Padding(
       padding: const EdgeInsets.only(left: 30.0, right: 30.0),
       child: TextFormField(
         style: TextStyle(
@@ -25,7 +20,7 @@ class _InputFieldWidget extends State<InputFieldWidget> {
           focusedBorder: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.grey),
           ),
-          hintText: 'madinasalik@yandex.ru',
+          hintText: 'dsadwadawdaswa',
           hintStyle: TextStyle(
             decoration: TextDecoration.underline,
             decorationStyle: TextDecorationStyle.double,
