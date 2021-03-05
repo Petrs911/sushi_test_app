@@ -20,7 +20,7 @@ class _LogInPage extends State<LogInPage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
-        SizedBox(height: 50.0),
+        //SizedBox(height: 50.0),
         TextWidget(text: 'Адрес электронной почты', fontWeight: FontWeight.w900, fontSize: 17.0),
         InputFieldWidget(
           obscureText: false,
@@ -33,7 +33,7 @@ class _LogInPage extends State<LogInPage> {
             fontSize: 17.0,
           ),
         ),
-        SizedBox(height: 50.0),
+        //SizedBox(height: 50.0),
         TextWidget(text: 'Пароль'),
         InputFieldWidget(
           obscureText: true,
@@ -44,7 +44,7 @@ class _LogInPage extends State<LogInPage> {
             fontSize: 20.0,
           ),
         ),
-        SizedBox(height: 30.0),
+        //SizedBox(height: 30.0),
         TextButtonWidget(
           text: 'Забыли пароль?',
           textStyle: TextStyle(
@@ -52,7 +52,7 @@ class _LogInPage extends State<LogInPage> {
             fontSize: 17.0,
           ),
         ),
-        SizedBox(height: 60.0),
+        //SizedBox(height: 60.0),
         RoundedButtonWidget(text: 'Войти'),
       ],
     );
