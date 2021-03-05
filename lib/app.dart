@@ -18,12 +18,12 @@ class MyApp extends StatelessWidget {
         child: Text('Войти', 
           style: TextStyle(color: Colors.black,
           fontSize: 18.0, 
-          fontWeight: FontWeight.w600))),
+          fontWeight: FontWeight.w700))),
       Tab(
         child: Text('Зарегистрироваться',
           style: TextStyle(color: Colors.black,
           fontSize: 18.0, 
-          fontWeight: FontWeight.w600))),
+          fontWeight: FontWeight.w700))),
     ];
 
     return DefaultTabController(
