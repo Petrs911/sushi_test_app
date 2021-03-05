@@ -20,7 +20,6 @@ class _LogInPage extends State<LogInPage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.max,
       children: <Widget>[
-        //SizedBox(height: 50.0),
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -36,10 +35,7 @@ class _LogInPage extends State<LogInPage> {
                 fontWeight: FontWeight.w600,
                 fontSize: 17.0,
               ),
-            ),
-          
-          //SizedBox(height: 50.0),
-            
+            ), 
           ]
         ),
         Column(
@@ -66,9 +62,6 @@ class _LogInPage extends State<LogInPage> {
             ),
           ],
         ),
-        //SizedBox(height: 30.0),
-        
-        //SizedBox(height: 60.0),
         RoundedButtonWidget(text: 'Войти'),
       ],
     );
