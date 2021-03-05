@@ -30,7 +30,7 @@ class _InputFieldWidgetState extends State<InputFieldWidget> {
           focusedBorder: UnderlineInputBorder(
             borderSide: BorderSide(color: Colors.grey),
           ),
-          hintText: text,
+          hintText: widget.text,
           //'madinasalik@yandex.ru',
           hintStyle: TextStyle(
             decoration: TextDecoration.underline,
