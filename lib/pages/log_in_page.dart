@@ -38,7 +38,7 @@ class _LogInPage extends State<LogInPage> {
               focusedBorder: UnderlineInputBorder(
                 borderSide: BorderSide(color: Colors.grey),
               ),
-              fillColor: Color(0xFFF2F2F2),
+              //fillColor: Color(0xFFF2F2F2),
               filled: true,
               hintText: 'madinasalik@yandex.ru',
               hintStyle: TextStyle(
