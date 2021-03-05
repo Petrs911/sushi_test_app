@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'text_widget.dart';
 import 'input_field_widget.dart';
-import 'button_widget.dart';
+import 'text_button.dart';
+import 'rounded_button.dart';
 
 class LogInPage extends StatefulWidget {
   const LogInPage({Key key}) : super(key: key);
