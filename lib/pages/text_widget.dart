@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TextWidget extends StatelessWidget { 
-  const TextWidget({Key key, this.text, this.font = FontWeight.w400}) : super(key: key);
+  const TextWidget({Key key, this.text, this.font = FontWeight.w600}) : super(key: key);
 
   final String text;
   final FontWeight font;
