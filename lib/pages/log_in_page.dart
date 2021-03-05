@@ -42,15 +42,21 @@ class _LogInPage extends State<LogInPage> {
             
           ]
         ),
-        TextWidget(text: 'Пароль'),
-        InputFieldWidget(
-          obscureText: true,
-          hintText: '********',
-          hintStyle: TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.w600,
-            fontSize: 20.0,
-          ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            TextWidget(text: 'Пароль'),
+            InputFieldWidget(
+              obscureText: true,
+              hintText: '********',
+              hintStyle: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w600,
+                fontSize: 20.0,
+              ),
+            ),
+          ],
         ),
         //SizedBox(height: 30.0),
         TextButtonWidget(
