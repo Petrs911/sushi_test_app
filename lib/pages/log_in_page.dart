@@ -19,8 +19,8 @@ class _LogInPage extends State<LogInPage> {
       children: <Widget>[
         SizedBox(height: 50.0),
         TextWidget(text: 'Password', font: FontWeight.w900),
-        InputFieldWidget(obscureText: false),
-        InputFieldWidget(obscureText: true),
+        InputFieldWidget(obscureText: false, text: 'wdaasdwa'),
+        InputFieldWidget(obscureText: true, text: '221312'),
       ],
     );
   }
