@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     final _Tabs = <Tab>[
       Tab(
         child: Container(
-          width: 40.0,
+          width: 60.0,
           child: Text('Войти', 
             style: TextStyle(color: Colors.black,
             fontSize: 18.0, 
