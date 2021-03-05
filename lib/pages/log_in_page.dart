@@ -16,7 +16,7 @@ class _LogInPage extends State<LogInPage> {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.stretch,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         SizedBox(height: 50.0),
         TextWidget(text: 'Адрес электронной почты', fontWeight: FontWeight.w900, fontSize: 17.0),
