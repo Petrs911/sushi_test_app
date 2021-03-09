@@ -12,7 +12,7 @@ class TextButtonWidget extends StatelessWidget {
       padding: const EdgeInsets.only(left: 30.0, right: 20.0), 
       child: TextButton(
         child: Text(text,
-          style: textStyle /*??= TextStyle(fontStyle: FontStyle.italic)*/,
+          style: textStyle ??= TextStyle(fontStyle: FontStyle.italic)*/,
         ),
         style: TextButton.styleFrom(
           primary: Colors.red,
