@@ -4,7 +4,7 @@ class TextButtonWidget extends StatelessWidget {
   TextButtonWidget({Key key, this.text, [this.textStyle]}) : super(key: key);
 
   final String text;
-  final TextStyle textStyle;
+  TextStyle textStyle;
 
   @override
   Widget build(BuildContext context) {
