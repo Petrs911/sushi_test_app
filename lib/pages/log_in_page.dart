@@ -57,8 +57,8 @@ class _LogInPage extends State<LogInPage> {
             text: 'Забыли пароль?',
               /*textStyle: TextStyle(
                 fontWeight: FontWeight.w700,
-                fontSize: 17.0,*/
-              ),
+                fontSize: 17.0,
+              ),*/
             ),
           ],
         ),
