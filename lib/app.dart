@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
       RegistrationPage(), 
     ];
     final _Tabs = <Widget>[
-      Tab(child: Text('Войти', 
+      Container(child: Text('Войти', 
             style: TextStyle(color: Colors.black,
             fontSize: 17.0, 
             fontWeight: FontWeight.w700))),
 
-      Tab(child: Text('Зарегистрироваться', 
+      Expanded(flex: 2, child: Text('Зарегистрироваться', 
           style: TextStyle(color: Colors.black,
           fontSize: 17.0, 
           fontWeight: FontWeight.w700))),
@@ -38,6 +38,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             bottom: TabBar(
+              isScrollable: true,
               tabs: _Tabs,
               indicator: UnderlineTabIndicator(
                 borderSide: BorderSide(width: 4.0, color: Color(0xFFD11317)),
