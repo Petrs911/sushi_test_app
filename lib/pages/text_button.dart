@@ -5,7 +5,7 @@ class TextButtonWidget extends StatelessWidget {
 
   final String text;
   final TextStyle textStyle;
-  Func fn;
+  Function fn;
   
   @override
   Widget build(BuildContext context) {
