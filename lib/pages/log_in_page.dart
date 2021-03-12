@@ -44,12 +44,12 @@ class _LogInPage extends State<LogInPage> {
             TextWidget(text: 'Пароль'),
             InputFieldWidget(
               obscureText: true,
-              hintText: '********',
-              /*hintStyle: TextStyle(
+              hintText: '* * * * * * * *',
+              hintStyle: TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.w600,
                 fontSize: 20.0,
-              ),*/
+              ),
             ),
             SizedBox(height: 20.0),
             TextButtonWidget(
