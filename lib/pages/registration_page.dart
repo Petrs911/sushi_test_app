@@ -76,7 +76,7 @@ class _RegistrationPage extends State<RegistrationPage> {
             TextWidget(text: 'Уже зарегистрированы?'),
             TextButtonWidget(
               text: 'Вход',
-              fn: _controller.animateTo(0),
+              //fn: _controller.animateTo(0),
               textStyle: TextStyle(
                 decoration: TextDecoration.underline,
                 fontWeight: FontWeight.w700,
