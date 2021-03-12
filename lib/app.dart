@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp>
   }
   final _pages = <Widget>[
   LogInPage(),
-  RegistrationPage(button: TextButtonWidget(fn: _controller.animateTo(0))),
+  RegistrationPage(button: TextButtonWidget(/*fn: _controller.animateTo(0)*/)),
   ];
 
   final _tabs = <Widget>[
