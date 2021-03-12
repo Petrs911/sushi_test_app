@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'themes/style.dart';
 import 'pages/log_in_page.dart';
 import 'pages/registration_page.dart';
+import 'pages/text_button.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({Key key}) : super(key: key);
@@ -22,7 +23,7 @@ class _MyAppState extends State<MyApp>
   }
   final _pages = <Widget>[
   LogInPage(),
-  RegistrationPage(),
+  RegistrationPage(button: TextButtonWidget(fn: _controller.animateTo(0))),
   ];
 
   final _tabs = <Widget>[
