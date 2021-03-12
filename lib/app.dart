@@ -5,24 +5,17 @@ import 'pages/log_in_page.dart';
 import 'pages/registration_page.dart';
 
 class MyApp extends StatelessWidget {
-  const MyApp ({Key key}) : super(key: key);
+  const MyApp({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final _Pages = <Widget>[
       LogInPage(),
-      RegistrationPage(), 
+      RegistrationPage(),
     ];
     final _Tabs = <Widget>[
-      Expanded(child: Text('Войти', 
-            style: TextStyle(color: Colors.black,
-            fontSize: 17.0, 
-            fontWeight: FontWeight.w700))),
-
-      Expanded(flex: 2, child: Text('Зарегистрироваться', 
-          style: TextStyle(color: Colors.black,
-          fontSize: 17.0, 
-          fontWeight: FontWeight.w700))),
+      Expanded(child: Text('Войти', style: TextStyle(color: Colors.black, fontSize: 17.0, fontWeight: FontWeight.w700))),
+      Expanded(flex: 2, child: Text('Зарегистрироваться', style: TextStyle(color: Colors.black, fontSize: 17.0, fontWeight: FontWeight.w700))),
     ];
 
     return DefaultTabController(
@@ -40,11 +33,7 @@ class MyApp extends StatelessWidget {
             bottom: TabBar(
               isScrollable: true,
               tabs: _Tabs,
-              indicator: UnderlineTabIndicator(
-                borderSide: BorderSide(width: 4.0, color: Color(0xFFD11317)),
-                insets: EdgeInsets.symmetric(horizontal:16.0)
-              ),
-              
+              indicator: UnderlineTabIndicator(borderSide: BorderSide(width: 4.0, color: Color(0xFFD11317)), insets: EdgeInsets.symmetric(horizontal: 16.0)),
             ),
             flexibleSpace: Container(
               decoration: BoxDecoration(
