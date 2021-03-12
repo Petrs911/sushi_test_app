@@ -84,7 +84,7 @@ class _RegistrationPage extends State<RegistrationPage> {
                 fontSize: 17.0,
               ),
             ),*/
-            button,
+            widget.button,
           ]
         ),
         RoundedButtonWidget(text: 'Зарегистрироваться'),
