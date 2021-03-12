@@ -55,6 +55,7 @@ class _LogInPage extends State<LogInPage> {
             SizedBox(height: 20.0),
             TextButtonWidget(
             text: 'Забыли пароль?',
+            fn: () {},
               /*textStyle: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 17.0,
