@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
 class TextButtonWidget extends StatelessWidget {
-  TextButtonWidget({Key key, this.text, this.textStyle}) : super(key: key);
+  TextButtonWidget({Key key, this.text, this.textStyle, this.fn = null}) : super(key: key);
 
   final String text;
   final TextStyle textStyle;
-
+  Func fn;
+  
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -17,7 +18,7 @@ class TextButtonWidget extends StatelessWidget {
         style: TextButton.styleFrom(
           primary: Colors.red,
         ),
-        onPressed: () {},
+        onPressed: fn,
       )
     );
   }
