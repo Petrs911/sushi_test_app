@@ -4,7 +4,7 @@ import 'text_widget.dart';
 import 'input_field_widget.dart';
 import 'text_button.dart';
 import 'rounded_button.dart';
-import 'package:sushi_test_app/app.dart';
+import 'package:lib/app.dart';
 
 class RegistrationPage extends StatefulWidget {
   const RegistrationPage({Key key}) : super(key: key);
