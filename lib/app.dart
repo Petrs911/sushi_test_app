@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
       RegistrationPage(),
     ];
     final _Tabs = <Widget>[
-      Expanded(child: Text('Войти', style: TextStyle(color: Colors.black, fontSize: 17.0, fontWeight: FontWeight.w700))),
-      Expanded(flex: 2, child: Text('Зарегистрироваться', style: TextStyle(color: Colors.black, fontSize: 17.0, fontWeight: FontWeight.w700))),
+      Expanded(child: Text('Войти', style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.w700))),
+      Expanded(flex: 2, child: Text('Зарегистрироваться', style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.w700))),
     ];
 
     return DefaultTabController(
