@@ -4,7 +4,7 @@ import 'text_widget.dart';
 import 'input_field_widget.dart';
 import 'text_button.dart';
 import 'rounded_button.dart';
-import 'package:/lib/app.dart';
+import 'package:sushi_test_app/app.dart';
 
 class RegistrationPage extends StatefulWidget {
   const RegistrationPage({Key key}) : super(key: key);
@@ -77,7 +77,7 @@ class _RegistrationPage extends State<RegistrationPage> {
             TextWidget(text: 'Уже зарегистрированы?'),
             TextButtonWidget(
               text: 'Вход',
-              fn: _controller.animateTo(0),
+              //fn: _controller.animateTo(0),
               textStyle: TextStyle(
                 decoration: TextDecoration.underline,
                 fontWeight: FontWeight.w700,
