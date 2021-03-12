@@ -7,7 +7,7 @@ import 'rounded_button.dart';
 import '../app.dart';
 
 class RegistrationPage extends StatefulWidget {
-  const RegistrationPage({Key key, this.button}) : super(key: key);
+  RegistrationPage({Key key, this.button}) : super(key: key);
   Widget button;
 
   @override
