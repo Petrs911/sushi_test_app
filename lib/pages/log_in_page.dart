@@ -30,7 +30,6 @@ class _LogInPage extends State<LogInPage> {
               hintText: 'madinasalik@yandex.ru',
               hintStyle: TextStyle(
                 decoration: TextDecoration.underline,
-                //decorationStyle: TextDecorationStyle.double,
                 color: Colors.black,
                 fontWeight: FontWeight.w600,
                 fontSize: 17.0,
@@ -46,11 +45,11 @@ class _LogInPage extends State<LogInPage> {
             InputFieldWidget(
               obscureText: true,
               hintText: '********',
-              hintStyle: TextStyle(
+              /*hintStyle: TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.w600,
                 fontSize: 20.0,
-              ),
+              ),*/
             ),
             SizedBox(height: 20.0),
             TextButtonWidget(
