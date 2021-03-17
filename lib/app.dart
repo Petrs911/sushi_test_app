@@ -34,6 +34,7 @@ class _MyAppState extends State<MyApp>
       ),
       fn: () {_controller.animateTo(0);}
     ),
+  )
   ];
 
   final _tabs = <Widget>[
