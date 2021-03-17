@@ -5,18 +5,6 @@ import 'pages/log_in_page.dart';
 import 'pages/registration_page.dart';
 import 'pages/text_button.dart';
 
-void main() => runApp(HomePage());
-
-class HomePage extends StatelessWidget {
-  static final myPageKey = GlobalKey<_MyAppState>();
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MyApp(key: myPageKey),
-    );
-  }
-}
 
 class MyApp extends StatefulWidget {
   const MyApp({Key key}) : super(key: key);
