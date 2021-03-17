@@ -6,7 +6,8 @@ import 'pages/registration_page.dart';
 import 'pages/text_button.dart';
 
 class MyApp extends StatefulWidget {
-  const MyApp({Key key}) : super(key: key);
+  static final myPageKey = GlobalKey<_MyHomePageState>();
+  const MyApp({Key myPageKey}) : super(key: key);
   @override
   _MyAppState createState() => _MyAppState();
 }
