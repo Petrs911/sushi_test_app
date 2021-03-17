@@ -7,9 +7,7 @@ import 'pages/text_button.dart';
 
 
 class MyApp extends StatefulWidget {
-  static final _myPageKey = GlobalKey<_MyAppState>();
-  
-  Key get myPageKey => _myPageKey;
+  static final myPageKey = GlobalKey<_MyAppState>();
 
   const MyApp({Key key}) : super(key: key);
   @override
