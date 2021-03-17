@@ -21,9 +21,21 @@ class _MyAppState extends State<MyApp>
     super.initState();
     _controller = TabController(length: _tabs.length, vsync: this);
   }
+
   final _pages = <Widget>[
   LogInPage(),
-  RegistrationPage(),
+  RegistrationPage(
+    widget: TextButtonWidget(
+      TextButtonWidget(
+        text: 'Вход',
+        textStyle: TextStyle(
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.w700,
+        fontSize: 17.0,
+        fn: () {_controller.animateTo(0);}
+        ),
+      )
+    )),
   ];
 
   final _tabs = <Widget>[
