@@ -15,12 +15,12 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
-  TabController _controller;
+  TabController controller;
 
   @override
   void initState() {
     super.initState();
-    _controller = TabController(length: _tabs.length, vsync: this);
+    controller = TabController(length: _tabs.length, vsync: this);
   }
 
   final _pages = <Widget>[
@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
           ),
           bottom: TabBar(
             isScrollable: true,
-            controller: _controller,
+            controller: controller,
             tabs: _tabs,
             indicator: UnderlineTabIndicator(borderSide: BorderSide(width: 4.0, color: Color(0xFFD11317)), insets: EdgeInsets.symmetric(horizontal: 16.0)),
           ),
@@ -59,7 +59,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
         ),
       ),
       body: TabBarView(
-        controller: _controller,
+        controller: controller,
         children: _pages,
       ),
       backgroundColor: Color(0xFFF2F2F2),
