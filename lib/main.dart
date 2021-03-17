@@ -4,11 +4,12 @@ import 'app.dart';
 void main() => runApp(HomePage());
 
 class HomePage extends StatelessWidget {
+  static final myPageKey = GlobalKey<_MyHomePageState>();
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyApp(),
+      home: MyApp(key: myPageKey),
     );
   }
 }
