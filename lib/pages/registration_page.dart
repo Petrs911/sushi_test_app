@@ -82,6 +82,7 @@ class _RegistrationPage extends State<RegistrationPage> {
                 fontWeight: FontWeight.w700,
                 fontSize: 17.0,
               ),
+              fn: () {MyApp.myPageKey.currentState.controller.animateTo(0);}
             ),
           ]
         ),
