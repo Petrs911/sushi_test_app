@@ -8,7 +8,7 @@ import 'pages/text_button.dart';
 void main() => runApp(HomePage());
 
 class HomePage extends StatelessWidget {
-  static final myPageKey = GlobalKey<_MyHomePageState>();
+  static final myPageKey = GlobalKey<_MyAppState>();
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
