@@ -26,15 +26,12 @@ class _MyAppState extends State<MyApp>
   LogInPage(),
   RegistrationPage(
     widget: TextButtonWidget(
-      TextButtonWidget(
-        text: 'Вход',
-        textStyle: TextStyle(
-        decoration: TextDecoration.underline,
-        fontWeight: FontWeight.w700,
-        fontSize: 17.0,
-        fn: () {_controller.animateTo(0);}
-        ),
-      )
+      text: 'Вход',
+      textStyle: TextStyle(
+      decoration: TextDecoration.underline,
+      fontWeight: FontWeight.w700,
+      fontSize: 17.0,
+      fn: () {_controller.animateTo(0);}
     )),
   ];
 
