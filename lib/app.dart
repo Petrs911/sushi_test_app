@@ -28,11 +28,12 @@ class _MyAppState extends State<MyApp>
     widget: TextButtonWidget(
       text: 'Вход',
       textStyle: TextStyle(
-      decoration: TextDecoration.underline,
-      fontWeight: FontWeight.w700,
-      fontSize: 17.0,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.w700,
+        fontSize: 17.0,
+      ),
       fn: () {_controller.animateTo(0);}
-    )),
+    ),
   ];
 
   final _tabs = <Widget>[
