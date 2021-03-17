@@ -11,67 +11,55 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
 }
 
-class _MyAppState extends State<MyApp>
-  with SingleTickerProviderStateMixin {
-  
+class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
   TabController _controller;
 
-  @override 
+  @override
   void initState() {
     super.initState();
     _controller = TabController(length: _tabs.length, vsync: this);
   }
 
   final _pages = <Widget>[
-  LogInPage(),
-  RegistrationPage(
-    widget: TextButtonWidget(
-      text: 'Вход',
-      textStyle: TextStyle(
-        decoration: TextDecoration.underline,
-        fontWeight: FontWeight.w700,
-        fontSize: 17.0,
-      ),
-      fn: () {_controller.animateTo(0);}
-    ),
-  )
+    LogInPage(),
+    RegistrationPage(),
   ];
 
   final _tabs = <Widget>[
-  Expanded(child: Text('Войти', style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.w700))),
-  Expanded(flex: 2, child: Text('Зарегистрироваться', style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.w700))),
+    Expanded(child: Text('Войти', style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.w700))),
+    Expanded(flex: 2, child: Text('Зарегистрироваться', style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.w700))),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: PreferredSize(
-          preferredSize: Size.fromHeight(300.0),
-          child: AppBar(
-            shape: ContinuousRectangleBorder(
-              borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(80.0),
-                bottomRight: Radius.circular(80.0),
-              ),
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(300.0),
+        child: AppBar(
+          shape: ContinuousRectangleBorder(
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(80.0),
+              bottomRight: Radius.circular(80.0),
             ),
-            bottom: TabBar(
-              isScrollable: true,
-              controller: _controller,
-              tabs: _tabs,
-              indicator: UnderlineTabIndicator(borderSide: BorderSide(width: 4.0, color: Color(0xFFD11317)), insets: EdgeInsets.symmetric(horizontal: 16.0)),
-            ),
-            flexibleSpace: Container(
-              decoration: BoxDecoration(
-                image: appLogo,
-              ),
+          ),
+          bottom: TabBar(
+            isScrollable: true,
+            controller: _controller,
+            tabs: _tabs,
+            indicator: UnderlineTabIndicator(borderSide: BorderSide(width: 4.0, color: Color(0xFFD11317)), insets: EdgeInsets.symmetric(horizontal: 16.0)),
+          ),
+          flexibleSpace: Container(
+            decoration: BoxDecoration(
+              image: appLogo,
             ),
           ),
         ),
-        body: TabBarView(
-          controller: _controller,
-          children: _pages,
-        ),
-        backgroundColor: Color(0xFFF2F2F2),
+      ),
+      body: TabBarView(
+        controller: _controller,
+        children: _pages,
+      ),
+      backgroundColor: Color(0xFFF2F2F2),
     );
   }
 }

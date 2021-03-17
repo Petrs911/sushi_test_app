@@ -7,9 +7,7 @@ import 'rounded_button.dart';
 import '../app.dart';
 
 class RegistrationPage extends StatefulWidget {
-  RegistrationPage({Key key, this.widget}) : super(key: key);
-
-  final Widget widget;
+  RegistrationPage({Key key}) : super(key: key);
 
   @override
   State<StatefulWidget> createState() => _RegistrationPage();
@@ -77,15 +75,14 @@ class _RegistrationPage extends State<RegistrationPage> {
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget> [
             TextWidget(text: 'Уже зарегистрированы?'),
-            widget.widget,
-            /*TextButtonWidget(
+            TextButtonWidget(
               text: 'Вход',
               textStyle: TextStyle(
                 decoration: TextDecoration.underline,
                 fontWeight: FontWeight.w700,
                 fontSize: 17.0,
               ),
-            ),*/
+            ),
           ]
         ),
         RoundedButtonWidget(text: 'Зарегистрироваться'),
